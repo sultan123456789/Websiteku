@@ -48,6 +48,7 @@ nav ul li a{
 nav ul li a:hover
 {
     color: yellow;
+    text-shadow: 3px 2px 1px grey;
 }
 
 body
@@ -85,32 +86,51 @@ body
     color: white;
 }
 
+.logoku
+{
+  
+    margin-left: 40px;
+}
 
 .linkedin
 {
     position: relative;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    
     border-radius: 50px 50px 50px 50px ;
-   
+    -webkit-border-radius: 50px 50px 50px 50px ;
+    -moz-border-radius: 50px 50px 50px 50px ;
+    -ms-border-radius: 50px 50px 50px 50px ;
+    -o-border-radius: 50px 50px 50px 50px ;
 }
 
 
-.ig
+.yt
 {
-    position: absolute;
-    height: 50px;
-    width: 50px;
+    position: relative;
+    height: 40px;
+    width: 40px;
     padding-left: 20px;
-        
+  
 }
 
 .wa
 {
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    padding-left: 90px;
-        
+    position: relative;
+    height: 40px;
+    width: 40px;
+    padding-left: 20px;
+          
+}
+
+.ig
+{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    padding-left: 20px;
+          
 }
  
